@@ -1,0 +1,11 @@
+C:\Users\devar\source\repos\modul2_1302204058\modul2_1302204058\obj\Debug\modul2_1302204058.csproj.AssemblyReference.cache
+C:\Users\devar\source\repos\modul2_1302204058\modul2_1302204058\obj\Debug\modul2_1302204058.csproj.SuggestedBindingRedirects.cache
+C:\Users\devar\source\repos\modul2_1302204058\modul2_1302204058\obj\Debug\modul2_1302204058.Form1.resources
+C:\Users\devar\source\repos\modul2_1302204058\modul2_1302204058\obj\Debug\modul2_1302204058.Properties.Resources.resources
+C:\Users\devar\source\repos\modul2_1302204058\modul2_1302204058\obj\Debug\modul2_1302204058.csproj.GenerateResource.cache
+C:\Users\devar\source\repos\modul2_1302204058\modul2_1302204058\obj\Debug\modul2_1302204058.csproj.CoreCompileInputs.cache
+C:\Users\devar\source\repos\modul2_1302204058\modul2_1302204058\bin\Debug\modul2_1302204058.exe.config
+C:\Users\devar\source\repos\modul2_1302204058\modul2_1302204058\bin\Debug\modul2_1302204058.exe
+C:\Users\devar\source\repos\modul2_1302204058\modul2_1302204058\bin\Debug\modul2_1302204058.pdb
+C:\Users\devar\source\repos\modul2_1302204058\modul2_1302204058\obj\Debug\modul2_1302204058.exe
+C:\Users\devar\source\repos\modul2_1302204058\modul2_1302204058\obj\Debug\modul2_1302204058.pdb

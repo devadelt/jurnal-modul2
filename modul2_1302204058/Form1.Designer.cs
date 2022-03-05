@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtText = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnCE = new System.Windows.Forms.Button();
             this.btn0 = new System.Windows.Forms.Button();
             this.btnEqual = new System.Windows.Forms.Button();
@@ -47,13 +47,13 @@
             this.btnBagi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // txtText
+            // textBox1
             // 
-            this.txtText.Enabled = false;
-            this.txtText.Location = new System.Drawing.Point(12, 35);
-            this.txtText.Name = "txtText";
-            this.txtText.Size = new System.Drawing.Size(228, 26);
-            this.txtText.TabIndex = 0;
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(12, 35);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(228, 26);
+            this.textBox1.TabIndex = 0;
             // 
             // btnCE
             // 
@@ -64,6 +64,7 @@
             this.btnCE.TabIndex = 1;
             this.btnCE.Text = "CE";
             this.btnCE.UseVisualStyleBackColor = true;
+            this.btnCE.Click += new System.EventHandler(this.btnCE_Click);
             // 
             // btn0
             // 
@@ -85,6 +86,7 @@
             this.btnEqual.TabIndex = 3;
             this.btnEqual.Text = "=";
             this.btnEqual.UseVisualStyleBackColor = true;
+            this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click);
             // 
             // btn1
             // 
@@ -194,6 +196,7 @@
             this.btnPlus.TabIndex = 13;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnMinus
             // 
@@ -204,6 +207,7 @@
             this.btnMinus.TabIndex = 14;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnKali
             // 
@@ -214,6 +218,7 @@
             this.btnKali.TabIndex = 15;
             this.btnKali.Text = "x";
             this.btnKali.UseVisualStyleBackColor = true;
+            this.btnKali.Click += new System.EventHandler(this.btnKali_Click);
             // 
             // btnBagi
             // 
@@ -224,6 +229,7 @@
             this.btnBagi.TabIndex = 16;
             this.btnBagi.Text = "/";
             this.btnBagi.UseVisualStyleBackColor = true;
+            this.btnBagi.Click += new System.EventHandler(this.btnBagi_Click);
             // 
             // Form1
             // 
@@ -246,7 +252,7 @@
             this.Controls.Add(this.btnEqual);
             this.Controls.Add(this.btn0);
             this.Controls.Add(this.btnCE);
-            this.Controls.Add(this.txtText);
+            this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -256,7 +262,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtText;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnCE;
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnEqual;
